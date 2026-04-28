@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-form-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);;
+}
+
+.contact-form-card h3 {
+  font-size: 1.3rem;
+  color:#1a2744 ;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid #e8ecf1;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
+  transition:all 0.3s ease ;
+  outline: none;
+  background:#f0f4f8 ;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #D4A017;
+  background: #fff;
+}
+
+.form-group textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.form-submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: #D4A017;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-submit-btn:hover {
+  background:#B8860B ;
+  transform: translateY(-2px);
+}
+
+.contact-info-card {
+  background:#fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow:0 4px 20px rgba(0, 0, 0, 0.08); ;
+}
+
+.contact-info-card h3 {
+  font-size: 1.3rem;
+  color: #1a2744;
+  margin-bottom: 25px;
+}
+
+.contact-info-item {
+  margin-bottom: 25px;
+}
+
+.contact-info-item h5 {
+  font-size: 0.9rem;
+  color: #1a2744;
+  margin-bottom: 5px;
+}
+
+.contact-info-item p {
+  font-size: 0.88rem;
+  color: #6b7280;
+}
+
+.contact-social {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.contact-social a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.contact-social a:hover {
+  transform: translateY(-3px);
+}
+
+.contact-title {
+    margin-top: 80px;
+    margin-left: 100px;
+
+}
+.para {
+    margin: 0 130px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.para p {
+    margin-bottom: 20px;
+
+}
+.para ul li {
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.8rem;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+  z-index: 999;
+  transition: all 0.3s ease;
+  animation: pulse-whatsapp 2s infinite;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+}
+
+@keyframes pulse-whatsapp {
+  0%, 100% { box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4); }
+  50% { box-shadow: 0 6px 30px rgba(37, 211, 102, 0.6); }
+}

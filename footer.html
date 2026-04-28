@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="footer.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="social-media">
+      <a href="https://twitter.com/intent/tweet?text=Accueil&url=https%3A%2F%2Fgoldenstudent.net%2F" target="_blank" class="social-x"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/cws/share/?url=https%3A%2F%2Fgoldenstudent.net%2F" target="_blank" class="social-ln"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://goldenstudent.net/" target="blank" class="social-pint"><i class="fab fa-pinterest-p"></i></a>
+        <a href="https://www.facebook.com/share.php?u=https://goldenstudent.net/" class="social-fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <span class="share-count"><i class="fas fa-share-alt"></i>0 <small>SHARES</small></span>
+  </section>
+  <section class="contact">
+    <a href="Contact.html">Contactez-nous <i class="fas fa-arrow-right"></i></a>
+  </section>
+
+    <div id="footer">
+        <script>
+            fetch ("footer.html")
+        
+        .then(res => res.text())
+        .then(data => document.getElementById("footer").innerHTML = data);
+        </script>
+    </div> 
+   
+
+    <a href="https://wa.me/212673700720" class="whatsapp-float" target="_blank" title="Contactez-nous sur WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+ <footer class="footer">
+        <div class="containeer">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="image/logo.jpg">
+                    </div>
+                    <p>Golden Student est le 1er bureau de conseil et d’orientation scolaire au Maroc, spécialisé dans les études secondaires et universitaires à l’étranger. Représentant officiel de +200 écoles supérieurs, et universités dans le monde entier.</p>
+                    <ul class="footer-contact-info">
+                        <li><i class="fas fa-phone"></i> +212 673700720</li>
+                        <li><i class="fas fa-envelope"></i> golden.student2021@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Av Massoude al wafkaoui, Agadir 80000, Maroc</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Liens utiles</h3>
+                    <ul class="footer-links">
+                    <li><a href="home.html">Accueil</a></li>
+                    <li><a href="apropos.html">À propos</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="destinations.html">Destinations d'études</a></li> 
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Restez informé de nos actualités !</h3>
+                    <form class="news-form">
+                        <input type="email" name="email" placeholder="✉ Enter Email" required>
+                        <button type="submit">SUBSCRIBE!</button>
+                    </form>
+                    <h3>Suivez-nous sur :</h3>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/goldenstudentaga" class="fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/golden-student/" class="li" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.youtube.com/@GoldenStudent-wg2bl" class="yt" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://instagram.com/goldenstudent.officiel" class="ig" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+      <div class="containeer">
+        2026 <span>Golden Student</span> TOUS DROITS RÉSERVÉS © Créé par l'<a href="#" style="color:var(--gold);">agence marketing digitale Rankup</a>
+      </div>
+        </div>
+
+    </footer>
+</body>
+</html>
